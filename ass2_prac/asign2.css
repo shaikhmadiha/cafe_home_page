@@ -1,0 +1,216 @@
+#body{
+    margin: auto;
+}
+
+#maindiv{
+    
+    width:100%;
+    height:600px;
+    background-image:url('/4hands.jpg');
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    
+}
+#zomatologo{
+    margin-left: 4%;
+    margin-top: 2%;
+    
+    width:100px;
+    height:40px;
+    color: white;
+    float: left;
+    font-size:24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    text-align: center;
+    line-height: 1;
+}
+#mainlogo{
+    margin-top: 2%;
+    margin-left: 80%;
+    
+    width:130px;
+    height:50px;
+    float: left;
+}
+#fblogo{
+    
+    width:50px;
+    height:50px;
+    float: left;
+    background-image:url(./fblogo.jpg);
+    background-repeat: no-repeat;
+    
+}
+#instalogo{
+    margin-left: 15%;
+    
+    width:50px;
+    height:50px;
+    float: left;
+    background-image: url(instalogo.jpg );
+    background-repeat: no-repeat;
+    
+
+}
+#div1{
+    width:100%;
+    height:20%;
+    
+    
+    
+    background-repeat: no-repeat;
+}
+
+#div2{
+    margin-top: 5%;
+    margin-left: 45%;
+    width:100px;
+    height:100px;
+    
+    border-radius: 50%;
+    background-color: white;
+    animation: zlogoanimation 15s infinite;
+}
+#div2:hover{
+
+    transform: scale(1.1);
+}
+
+
+#zlogo{
+    color:saddlebrown;
+    font-size: 40px;
+    line-height:2;
+    margin-left:30%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+@keyframes zlogoanimation{
+
+    0%{
+        margin-left:45%;
+    }
+    25%{
+        margin-left:60%;
+    }
+    50%{
+        margin-left:45%;
+    }
+    75%
+    {
+        margin-left:25%;
+    }
+    100%{
+        
+        margin-left:45%;
+    }
+    
+}
+#boxmain{
+    margin-top:2%;
+    margin-left:36%;
+    
+    background-color: blue;
+    width:25%;
+    height:50px;
+}
+#dropdown1{
+    margin-top: 1%;
+    
+    margin-left:35%;
+    width:10%;
+    height:40px;
+    float: left;
+}
+#dropdown2{
+    margin-top: 1%;
+    
+    margin-left: 3%;
+    width: 250px;
+    height:40px;
+    float: left;
+}
+#maindiv2{
+
+    margin-top: 1%;
+    
+    width:100%;
+    height:70%;
+
+}
+#sub1{
+    margin-top: 2%;
+    margin-left: 10%;
+    
+    width:80%;
+    height: 80%;
+}
+#cardholder{
+    width:100%;
+    height:70%;
+    
+}
+.card{
+    
+    width:25%;
+    height:40%;
+    float: left;
+    margin-bottom: 2%;
+    margin-right: 4%;
+    background-color:#ffffff;
+    box-shadow: 10px 15px 20px grey;
+    
+}
+.card:hover{
+
+    transform: scale(1.1);
+}
+
+
+
+
+#imgdiv{
+    width:30%;
+    height:100%;
+    
+    float: left;
+
+}
+#contentdiv{
+
+    float: left;
+    width:40%;
+    height:100%;
+    margin-left: 12%;
+    
+}
+#boxmainedit{
+    color: white;
+    font-size: 30px;
+
+    
+}
+.headingcontent{
+    margin-top: 8%;
+    color: saddlebrown;
+    font-size: 30px;
+    margin-left: 4%;
+    display: block;
+}
+.textcontent{
+    color:grey;
+    font-size: 20px;
+    display: block;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+#style1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: saddlebrown;
+}
+#style2{
+    color: grey;
+    font-size: 20px;
+}
